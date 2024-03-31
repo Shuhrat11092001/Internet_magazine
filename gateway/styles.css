@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+
+    gap: 10px;
+}
+
+
+
+.navbar_container{
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 0 0 10px 10px;
+    width: 1200px;
+    height: 78px;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.35);
+    background: rgba(255, 255, 255, 0.9);
+    width: 100%;
+ 
+}
+
+
+
+.logo{
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+}
+
+.main__text{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 120%;
+    text-align: center;
+    color: #4a4b65;
+}
+
+.subtext{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 24px;
+line-height: 125%;
+text-align: center;
+color: #4a4b65;
+}
+
+.pagination{
+    border: 1px solid #e9e9f2;
+   border-radius: 12px;
+   width: 1170px;
+   height: 124px;
+   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.35);
+   background: #f0f0f0;
+}
+
+.page_wrap{
+    border: 1px solid rgba(118, 109, 244, 0.35);
+    border-radius: 8px;
+    width: 35px;
+    height: 36px;
+}
+
+.page{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 125%;
+    color: #007bff;
+}
+
+.photo{
+height: 100px;
+width: 100px;
+}
+
+
+.product-card img {
+    width: 100px; /* Замените на нужную вам ширину */
+    height: auto; /* Высота будет автоматически рассчитана для сохранения пропорций */
+}
+
+.product-card{
+    height: 100%;
+    width: 100px;
+}
+
+.product-container{
+    display: flex;
+    
+}
+
